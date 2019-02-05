@@ -1,4 +1,18 @@
+# Install GRPC(Package)
+
+```bash
+go get google.golang.org/grpc
+```
+
+# sample 코드 실행
+
 해당 샘플코드를 실행하기 위해서는 다운받은 후 **`$GOPATH/src`** 디렉터리에 넣어준 후 아래 명령어를 실행
+
+```bash
+$ git clone https://github.com/pjt3591oo/grpc-sample.git
+$ mv grpc-sample $GOPATH/src
+$ cd $GOPATH/src/grpc-sample/grpc
+```
 
 * GRPC server 실행
 
@@ -12,13 +26,7 @@ $ go run server.go
 $ go run client.go
 ```
 
-# Install GRPC
-
-```bash
-go get google.golang.org/grpc
-```
-
-# Install protoc-gen-go 
+# Install protoc-gen-go(Binary)
 
 ```bash
 $ go get -u -v github.com/golang/protobuf/protoc-gen-go
